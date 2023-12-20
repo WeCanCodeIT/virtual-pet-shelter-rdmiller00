@@ -130,7 +130,7 @@ public class VirtualPet{
     }
 
     public void playFetch(){
-        boredomLevel -= 15;
+        boredomLevel -= 30;
         hungerLevel += 10;
         thirstLevel += 25;
         affectionLevel += 15;
@@ -139,7 +139,7 @@ public class VirtualPet{
     }
 
     public void goForWalk(){
-        boredomLevel -= 10;
+        boredomLevel -= 30;
         hungerLevel += 5;
         thirstLevel += 5;
         affectionLevel += 20;
